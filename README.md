@@ -29,3 +29,5 @@ Discussion added
 Wiki added
 
 Issues added
+
+Labels added to Issues and PR (Pull Requests)
