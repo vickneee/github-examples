@@ -1,8 +1,40 @@
+"""
+This module implements a simple Tic-Tac-Toe game.
+
+The game is played on a 3x3 board. 
+Players take turns marking a cell with their symbol ('X' or 'O').
+The first player to get three of their symbols in a row (horizontally, 
+vertically, or diagonally) wins the game.
+
+Functions:
+    - print_board(board): Prints the current state of the board.
+    - check_win(board): Checks if a player has won the game.
+    - tic_tac_toe(): Main function to play the Tic-Tac-Toe game.
+"""
+
 def print_board(board):
+    """
+    Prints the current state of the board.
+
+    Args:
+        board (list): The game board.
+
+    Returns:
+        None
+    """
     for row in board:
         print(" ".join(row))
 
 def check_win(board):
+    """
+    Checks if a player has won the game.
+
+    Args:
+        board (list): The game board.
+
+    Returns:
+        bool: True if a player has won, False otherwise.
+    """
     for row in board:
         if row.count(row[0]) == len(row) and row[0] != ' ':
             return True
@@ -22,6 +54,12 @@ def check_win(board):
     return False
 
 def tic_tac_toe():
+    """
+    Main function to play the Tic-Tac-Toe game.
+
+    Returns:
+        None
+    """
     board = [[' ' for _ in range(3)] for _ in range(3)]
     player = 'X'
 
