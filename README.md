@@ -1,10 +1,10 @@
 # github-examples
 
-New commit
+## New commit
 
-Editing file
+## Editing file
 
-Tag Added
+## Tag Added
 
 - git tag 1.0.0 Deleted
 
@@ -22,12 +22,15 @@ git tag -d v0.2 // Delete tag locally
 
 git push --delete origin v0.2 // Delete tag remotely
 
-License added
+## License added
 
-Discussion added
+## Discussion added
 
-Wiki added
+## Wiki added
 
-Issues added
+## Issues added
 
-Labels added to Issues and PR (Pull Requests)
+## Labels added to Issues and PR (Pull Requests)
+
+## Project added 
+
