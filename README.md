@@ -34,3 +34,5 @@ git push --delete origin v0.2 // Delete tag remotely
 
 ## Project added 
 
+## Assignees added
+
