@@ -12,6 +12,8 @@ git tag -a v0.1 -m "First release"
 
 git push origin v0.1
 
+git push --tags
+
 git tag -a v0.2 -m "Second release"
 
 git push origin v0.2
