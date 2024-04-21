@@ -4,7 +4,7 @@
 
 ## Editing file
 
-## Tag Added
+## Tag added
 
 - git tag 1.0.0 Deleted
 
